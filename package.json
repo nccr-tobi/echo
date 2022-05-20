@@ -1,0 +1,23 @@
+{
+  "name": "echo",
+  "version": "0.0.1",
+  "description": "echo back a string",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nccr-tobi/echo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nccr-tobi/echo/issues"
+  },
+  "homepage": "https://github.com/nccr-tobi/echo#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
